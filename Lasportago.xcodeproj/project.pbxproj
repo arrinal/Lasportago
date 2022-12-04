@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		705B5B93293CC6A500591DA7 /* LasportagoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5B92293CC6A500591DA7 /* LasportagoApp.swift */; };
+		705B5B95293CC6A500591DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5B94293CC6A500591DA7 /* ContentView.swift */; };
+		705B5B97293CC6A700591DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705B5B96293CC6A700591DA7 /* Assets.xcassets */; };
+		705B5B9B293CC6A700591DA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705B5B9A293CC6A700591DA7 /* Preview Assets.xcassets */; };
+		705B5BA5293CC6A700591DA7 /* LasportagoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5BA4293CC6A700591DA7 /* LasportagoTests.swift */; };
+		705B5BAF293CC6A700591DA7 /* LasportagoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5BAE293CC6A700591DA7 /* LasportagoUITests.swift */; };
+		705B5BB1293CC6A700591DA7 /* LasportagoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5BB0293CC6A700591DA7 /* LasportagoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		705B5BA1293CC6A700591DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 705B5B87293CC6A500591DA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 705B5B8E293CC6A500591DA7;
+			remoteInfo = Lasportago;
+		};
+		705B5BAB293CC6A700591DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 705B5B87293CC6A500591DA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 705B5B8E293CC6A500591DA7;
+			remoteInfo = Lasportago;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		705B5B8F293CC6A500591DA7 /* Lasportago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lasportago.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		705B5B92293CC6A500591DA7 /* LasportagoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasportagoApp.swift; sourceTree = "<group>"; };
+		705B5B94293CC6A500591DA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		705B5B96293CC6A700591DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		705B5B98293CC6A700591DA7 /* Lasportago.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lasportago.entitlements; sourceTree = "<group>"; };
+		705B5B9A293CC6A700591DA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		705B5BA0293CC6A700591DA7 /* LasportagoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LasportagoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		705B5BA4293CC6A700591DA7 /* LasportagoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasportagoTests.swift; sourceTree = "<group>"; };
+		705B5BAA293CC6A700591DA7 /* LasportagoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LasportagoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		705B5BAE293CC6A700591DA7 /* LasportagoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasportagoUITests.swift; sourceTree = "<group>"; };
+		705B5BB0293CC6A700591DA7 /* LasportagoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasportagoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		705B5B8C293CC6A500591DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705B5B9D293CC6A700591DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705B5BA7293CC6A700591DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		705B5B86293CC6A500591DA7 = {
+			isa = PBXGroup;
+			children = (
+				705B5B91293CC6A500591DA7 /* Lasportago */,
+				705B5BA3293CC6A700591DA7 /* LasportagoTests */,
+				705B5BAD293CC6A700591DA7 /* LasportagoUITests */,
+				705B5B90293CC6A500591DA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		705B5B90293CC6A500591DA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				705B5B8F293CC6A500591DA7 /* Lasportago.app */,
+				705B5BA0293CC6A700591DA7 /* LasportagoTests.xctest */,
+				705B5BAA293CC6A700591DA7 /* LasportagoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		705B5B91293CC6A500591DA7 /* Lasportago */ = {
+			isa = PBXGroup;
+			children = (
+				705B5B92293CC6A500591DA7 /* LasportagoApp.swift */,
+				705B5B94293CC6A500591DA7 /* ContentView.swift */,
+				705B5B96293CC6A700591DA7 /* Assets.xcassets */,
+				705B5B98293CC6A700591DA7 /* Lasportago.entitlements */,
+				705B5B99293CC6A700591DA7 /* Preview Content */,
+			);
+			path = Lasportago;
+			sourceTree = "<group>";
+		};
+		705B5B99293CC6A700591DA7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				705B5B9A293CC6A700591DA7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		705B5BA3293CC6A700591DA7 /* LasportagoTests */ = {
+			isa = PBXGroup;
+			children = (
+				705B5BA4293CC6A700591DA7 /* LasportagoTests.swift */,
+			);
+			path = LasportagoTests;
+			sourceTree = "<group>";
+		};
+		705B5BAD293CC6A700591DA7 /* LasportagoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				705B5BAE293CC6A700591DA7 /* LasportagoUITests.swift */,
+				705B5BB0293CC6A700591DA7 /* LasportagoUITestsLaunchTests.swift */,
+			);
+			path = LasportagoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		705B5B8E293CC6A500591DA7 /* Lasportago */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 705B5BB4293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "Lasportago" */;
+			buildPhases = (
+				705B5B8B293CC6A500591DA7 /* Sources */,
+				705B5B8C293CC6A500591DA7 /* Frameworks */,
+				705B5B8D293CC6A500591DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lasportago;
+			productName = Lasportago;
+			productReference = 705B5B8F293CC6A500591DA7 /* Lasportago.app */;
+			productType = "com.apple.product-type.application";
+		};
+		705B5B9F293CC6A700591DA7 /* LasportagoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 705B5BB7293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "LasportagoTests" */;
+			buildPhases = (
+				705B5B9C293CC6A700591DA7 /* Sources */,
+				705B5B9D293CC6A700591DA7 /* Frameworks */,
+				705B5B9E293CC6A700591DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				705B5BA2293CC6A700591DA7 /* PBXTargetDependency */,
+			);
+			name = LasportagoTests;
+			productName = LasportagoTests;
+			productReference = 705B5BA0293CC6A700591DA7 /* LasportagoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		705B5BA9293CC6A700591DA7 /* LasportagoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 705B5BBA293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "LasportagoUITests" */;
+			buildPhases = (
+				705B5BA6293CC6A700591DA7 /* Sources */,
+				705B5BA7293CC6A700591DA7 /* Frameworks */,
+				705B5BA8293CC6A700591DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				705B5BAC293CC6A700591DA7 /* PBXTargetDependency */,
+			);
+			name = LasportagoUITests;
+			productName = LasportagoUITests;
+			productReference = 705B5BAA293CC6A700591DA7 /* LasportagoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		705B5B87293CC6A500591DA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					705B5B8E293CC6A500591DA7 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					705B5B9F293CC6A700591DA7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 705B5B8E293CC6A500591DA7;
+					};
+					705B5BA9293CC6A700591DA7 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 705B5B8E293CC6A500591DA7;
+					};
+				};
+			};
+			buildConfigurationList = 705B5B8A293CC6A500591DA7 /* Build configuration list for PBXProject "Lasportago" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 705B5B86293CC6A500591DA7;
+			productRefGroup = 705B5B90293CC6A500591DA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				705B5B8E293CC6A500591DA7 /* Lasportago */,
+				705B5B9F293CC6A700591DA7 /* LasportagoTests */,
+				705B5BA9293CC6A700591DA7 /* LasportagoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		705B5B8D293CC6A500591DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705B5B9B293CC6A700591DA7 /* Preview Assets.xcassets in Resources */,
+				705B5B97293CC6A700591DA7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705B5B9E293CC6A700591DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705B5BA8293CC6A700591DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		705B5B8B293CC6A500591DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705B5B95293CC6A500591DA7 /* ContentView.swift in Sources */,
+				705B5B93293CC6A500591DA7 /* LasportagoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705B5B9C293CC6A700591DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705B5BA5293CC6A700591DA7 /* LasportagoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		705B5BA6293CC6A700591DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705B5BB1293CC6A700591DA7 /* LasportagoUITestsLaunchTests.swift in Sources */,
+				705B5BAF293CC6A700591DA7 /* LasportagoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		705B5BA2293CC6A700591DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 705B5B8E293CC6A500591DA7 /* Lasportago */;
+			targetProxy = 705B5BA1293CC6A700591DA7 /* PBXContainerItemProxy */;
+		};
+		705B5BAC293CC6A700591DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 705B5B8E293CC6A500591DA7 /* Lasportago */;
+			targetProxy = 705B5BAB293CC6A700591DA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		705B5BB2293CC6A700591DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		705B5BB3293CC6A700591DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		705B5BB5293CC6A700591DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lasportago/Lasportago.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lasportago/Preview Content\"";
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arrinal.Lasportago;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		705B5BB6293CC6A700591DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lasportago/Lasportago.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lasportago/Preview Content\"";
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arrinal.Lasportago;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		705B5BB8293CC6A700591DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arrinal.LasportagoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lasportago.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lasportago";
+			};
+			name = Debug;
+		};
+		705B5BB9293CC6A700591DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arrinal.LasportagoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lasportago.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lasportago";
+			};
+			name = Release;
+		};
+		705B5BBB293CC6A700591DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arrinal.LasportagoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lasportago;
+			};
+			name = Debug;
+		};
+		705B5BBC293CC6A700591DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C625QPFG8X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arrinal.LasportagoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lasportago;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		705B5B8A293CC6A500591DA7 /* Build configuration list for PBXProject "Lasportago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705B5BB2293CC6A700591DA7 /* Debug */,
+				705B5BB3293CC6A700591DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		705B5BB4293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "Lasportago" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705B5BB5293CC6A700591DA7 /* Debug */,
+				705B5BB6293CC6A700591DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		705B5BB7293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "LasportagoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705B5BB8293CC6A700591DA7 /* Debug */,
+				705B5BB9293CC6A700591DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		705B5BBA293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "LasportagoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				705B5BBB293CC6A700591DA7 /* Debug */,
+				705B5BBC293CC6A700591DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 705B5B87293CC6A500591DA7 /* Project object */;
+}
