@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A78CD8953D136E51AD5EB47 /* Pods_LasportagoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256D3EE86D1B17B2C9F9806D /* Pods_LasportagoTests.framework */; };
 		705B5B93293CC6A500591DA7 /* LasportagoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5B92293CC6A500591DA7 /* LasportagoApp.swift */; };
 		705B5B95293CC6A500591DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5B94293CC6A500591DA7 /* ContentView.swift */; };
 		705B5B97293CC6A700591DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705B5B96293CC6A700591DA7 /* Assets.xcassets */; };
@@ -15,6 +16,8 @@
 		705B5BAF293CC6A700591DA7 /* LasportagoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5BAE293CC6A700591DA7 /* LasportagoUITests.swift */; };
 		705B5BB1293CC6A700591DA7 /* LasportagoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5BB0293CC6A700591DA7 /* LasportagoUITestsLaunchTests.swift */; };
 		70D9752029445CE300B346FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70D9751F29445CE300B346FE /* GoogleService-Info.plist */; };
+		8D13100665ED3BD0793F2C6E /* Pods_Lasportago.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF1F3945329C0AD362346BF /* Pods_Lasportago.framework */; };
+		DDF3645ADFD76A9215E3A0B6 /* Pods_Lasportago_LasportagoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8292F12A75E0A535B68AFF8 /* Pods_Lasportago_LasportagoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20F658292D03796649A0C9FB /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago-LasportagoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2340A928E5B589D69CD958CD /* Pods-Lasportago.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago.release.xcconfig"; path = "Target Support Files/Pods-Lasportago/Pods-Lasportago.release.xcconfig"; sourceTree = "<group>"; };
+		256D3EE86D1B17B2C9F9806D /* Pods_LasportagoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LasportagoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B24251F1FA5CA3D3B72368A /* Pods-LasportagoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LasportagoTests.debug.xcconfig"; path = "Target Support Files/Pods-LasportagoTests/Pods-LasportagoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B61259F5E77BF16CD1B4728 /* Pods-Lasportago-LasportagoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago-LasportagoUITests.release.xcconfig"; path = "Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		705B5B8F293CC6A500591DA7 /* Lasportago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lasportago.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		705B5B92293CC6A500591DA7 /* LasportagoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasportagoApp.swift; sourceTree = "<group>"; };
 		705B5B94293CC6A500591DA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		705B5BAE293CC6A700591DA7 /* LasportagoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasportagoUITests.swift; sourceTree = "<group>"; };
 		705B5BB0293CC6A700591DA7 /* LasportagoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasportagoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		70D9751F29445CE300B346FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E2D42E43F562939EE24AA53 /* Pods-LasportagoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LasportagoTests.release.xcconfig"; path = "Target Support Files/Pods-LasportagoTests/Pods-LasportagoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A806CFFDCC4437480FEF1024 /* Pods-Lasportago.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago.debug.xcconfig"; path = "Target Support Files/Pods-Lasportago/Pods-Lasportago.debug.xcconfig"; sourceTree = "<group>"; };
+		BDF1F3945329C0AD362346BF /* Pods_Lasportago.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lasportago.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8292F12A75E0A535B68AFF8 /* Pods_Lasportago_LasportagoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lasportago_LasportagoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D13100665ED3BD0793F2C6E /* Pods_Lasportago.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A78CD8953D136E51AD5EB47 /* Pods_LasportagoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF3645ADFD76A9215E3A0B6 /* Pods_Lasportago_LasportagoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				705B5BA3293CC6A700591DA7 /* LasportagoTests */,
 				705B5BAD293CC6A700591DA7 /* LasportagoUITests */,
 				705B5B90293CC6A500591DA7 /* Products */,
+				86088B1980089D35F3ABBF27 /* Pods */,
+				B86F6A3D6781314F0CFEA9D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,30 @@
 			path = LasportagoUITests;
 			sourceTree = "<group>";
 		};
+		86088B1980089D35F3ABBF27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A806CFFDCC4437480FEF1024 /* Pods-Lasportago.debug.xcconfig */,
+				2340A928E5B589D69CD958CD /* Pods-Lasportago.release.xcconfig */,
+				20F658292D03796649A0C9FB /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */,
+				5B61259F5E77BF16CD1B4728 /* Pods-Lasportago-LasportagoUITests.release.xcconfig */,
+				4B24251F1FA5CA3D3B72368A /* Pods-LasportagoTests.debug.xcconfig */,
+				8E2D42E43F562939EE24AA53 /* Pods-LasportagoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B86F6A3D6781314F0CFEA9D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDF1F3945329C0AD362346BF /* Pods_Lasportago.framework */,
+				F8292F12A75E0A535B68AFF8 /* Pods_Lasportago_LasportagoUITests.framework */,
+				256D3EE86D1B17B2C9F9806D /* Pods_LasportagoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +180,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 705B5BB4293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "Lasportago" */;
 			buildPhases = (
+				F1F45B9921B3939758372803 /* [CP] Check Pods Manifest.lock */,
 				705B5B8B293CC6A500591DA7 /* Sources */,
 				705B5B8C293CC6A500591DA7 /* Frameworks */,
 				705B5B8D293CC6A500591DA7 /* Resources */,
+				8AB294A047E6DF6B2E0BFFF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -156,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 705B5BB7293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "LasportagoTests" */;
 			buildPhases = (
+				BEDB746062B9AB4A236DD5F9 /* [CP] Check Pods Manifest.lock */,
 				705B5B9C293CC6A700591DA7 /* Sources */,
 				705B5B9D293CC6A700591DA7 /* Frameworks */,
 				705B5B9E293CC6A700591DA7 /* Resources */,
@@ -174,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 705B5BBA293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "LasportagoUITests" */;
 			buildPhases = (
+				2AB652340B148CF43EFCAABB /* [CP] Check Pods Manifest.lock */,
 				705B5BA6293CC6A700591DA7 /* Sources */,
 				705B5BA7293CC6A700591DA7 /* Frameworks */,
 				705B5BA8293CC6A700591DA7 /* Resources */,
+				48ABF47D2BD4FD4D13462AD7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,6 +303,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB652340B148CF43EFCAABB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lasportago-LasportagoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48ABF47D2BD4FD4D13462AD7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB294A047E6DF6B2E0BFFF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lasportago/Pods-Lasportago-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lasportago/Pods-Lasportago-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lasportago/Pods-Lasportago-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDB746062B9AB4A236DD5F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LasportagoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1F45B9921B3939758372803 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lasportago-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		705B5B8B293CC6A500591DA7 /* Sources */ = {
@@ -412,6 +561,7 @@
 		};
 		705B5BB5293CC6A700591DA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A806CFFDCC4437480FEF1024 /* Pods-Lasportago.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +603,7 @@
 		};
 		705B5BB6293CC6A700591DA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2340A928E5B589D69CD958CD /* Pods-Lasportago.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +645,7 @@
 		};
 		705B5BB8293CC6A700591DA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B24251F1FA5CA3D3B72368A /* Pods-LasportagoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +669,7 @@
 		};
 		705B5BB9293CC6A700591DA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2D42E43F562939EE24AA53 /* Pods-LasportagoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +693,7 @@
 		};
 		705B5BBB293CC6A700591DA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F658292D03796649A0C9FB /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +716,7 @@
 		};
 		705B5BBC293CC6A700591DA7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B61259F5E77BF16CD1B4728 /* Pods-Lasportago-LasportagoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
