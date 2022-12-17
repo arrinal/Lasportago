@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12479345ADAC5C041A75F885 /* Pods_Lasportago.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D767A489EE628E1E827382D /* Pods_Lasportago.framework */; };
-		1916C9248CE414E2C8762098 /* Pods_LasportagoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8A8C8C1934DCFC7C6EB9BC /* Pods_LasportagoTests.framework */; };
-		3CC96E956D7D2E4A4824A9E7 /* Pods_Lasportago_LasportagoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB9416AC97394744AFE88E0 /* Pods_Lasportago_LasportagoUITests.framework */; };
+		231CD4E8C1B6A4762B6C4826 /* Pods_LasportagoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD18EF2218F7CE928485938 /* Pods_LasportagoTests.framework */; };
+		6BE8CF6DAB4CDCA9D3ABFE91 /* Pods_Lasportago.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94FBCDA078B57497D3667F1 /* Pods_Lasportago.framework */; };
 		705B5B93293CC6A500591DA7 /* LasportagoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5B92293CC6A500591DA7 /* LasportagoApp.swift */; };
 		705B5B97293CC6A700591DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705B5B96293CC6A700591DA7 /* Assets.xcassets */; };
 		705B5B9B293CC6A700591DA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705B5B9A293CC6A700591DA7 /* Preview Assets.xcassets */; };
@@ -23,6 +22,7 @@
 		70A2FC13294601670026D954 /* MatchBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A2FC12294601670026D954 /* MatchBanner.swift */; };
 		70A2FC18294608B70026D954 /* View+RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A2FC17294608B70026D954 /* View+RoundedCorner.swift */; };
 		70D9752029445CE300B346FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70D9751F29445CE300B346FE /* GoogleService-Info.plist */; };
+		875B8693516569784305CB0C /* Pods_Lasportago_LasportagoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9887BD83AA8EE4C844B923 /* Pods_Lasportago_LasportagoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A8A8C8C1934DCFC7C6EB9BC /* Pods_LasportagoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LasportagoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FB9416AC97394744AFE88E0 /* Pods_Lasportago_LasportagoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lasportago_LasportagoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		165E2C149385B90FFEB8905F /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago-LasportagoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		1DB6F6B99ADDC790294A3774 /* Pods-Lasportago.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago.debug.xcconfig"; path = "Target Support Files/Pods-Lasportago/Pods-Lasportago.debug.xcconfig"; sourceTree = "<group>"; };
-		6028A3300AEACB0D0E6E58D3 /* Pods-LasportagoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LasportagoTests.debug.xcconfig"; path = "Target Support Files/Pods-LasportagoTests/Pods-LasportagoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6B79BB0478C6E74D5A5DA8B2 /* Pods-Lasportago.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago.release.xcconfig"; path = "Target Support Files/Pods-Lasportago/Pods-Lasportago.release.xcconfig"; sourceTree = "<group>"; };
+		2CD18EF2218F7CE928485938 /* Pods_LasportagoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LasportagoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70392FE0607BCB078C9DF298 /* Pods-Lasportago.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago.release.xcconfig"; path = "Target Support Files/Pods-Lasportago/Pods-Lasportago.release.xcconfig"; sourceTree = "<group>"; };
 		705B5B8F293CC6A500591DA7 /* Lasportago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lasportago.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		705B5B92293CC6A500591DA7 /* LasportagoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasportagoApp.swift; sourceTree = "<group>"; };
 		705B5B96293CC6A700591DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,9 +63,13 @@
 		70A2FC12294601670026D954 /* MatchBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchBanner.swift; sourceTree = "<group>"; };
 		70A2FC17294608B70026D954 /* View+RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+RoundedCorner.swift"; sourceTree = "<group>"; };
 		70D9751F29445CE300B346FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		7D767A489EE628E1E827382D /* Pods_Lasportago.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lasportago.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EC8395DC86D6FA5006DE259 /* Pods-Lasportago-LasportagoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago-LasportagoUITests.release.xcconfig"; path = "Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D822953345DC6AA9A3991469 /* Pods-LasportagoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LasportagoTests.release.xcconfig"; path = "Target Support Files/Pods-LasportagoTests/Pods-LasportagoTests.release.xcconfig"; sourceTree = "<group>"; };
+		737F97E8B7DCDCE757652850 /* Pods-Lasportago.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago.debug.xcconfig"; path = "Target Support Files/Pods-Lasportago/Pods-Lasportago.debug.xcconfig"; sourceTree = "<group>"; };
+		A94B22A5292311A3BF9C93CA /* Pods-LasportagoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LasportagoTests.debug.xcconfig"; path = "Target Support Files/Pods-LasportagoTests/Pods-LasportagoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C94FBCDA078B57497D3667F1 /* Pods_Lasportago.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lasportago.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9887BD83AA8EE4C844B923 /* Pods_Lasportago_LasportagoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lasportago_LasportagoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D400945E6D243EEE0C2BF50D /* Pods-Lasportago-LasportagoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago-LasportagoUITests.release.xcconfig"; path = "Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD947D4B34B7820374789E6F /* Pods-LasportagoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LasportagoTests.release.xcconfig"; path = "Target Support Files/Pods-LasportagoTests/Pods-LasportagoTests.release.xcconfig"; sourceTree = "<group>"; };
+		EDF1D13495757D6910498B7B /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago-LasportagoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12479345ADAC5C041A75F885 /* Pods_Lasportago.framework in Frameworks */,
+				6BE8CF6DAB4CDCA9D3ABFE91 /* Pods_Lasportago.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1916C9248CE414E2C8762098 /* Pods_LasportagoTests.framework in Frameworks */,
+				231CD4E8C1B6A4762B6C4826 /* Pods_LasportagoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,13 +93,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CC96E956D7D2E4A4824A9E7 /* Pods_Lasportago_LasportagoUITests.framework in Frameworks */,
+				875B8693516569784305CB0C /* Pods_Lasportago_LasportagoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13AF6CB85272747816498E39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94FBCDA078B57497D3667F1 /* Pods_Lasportago.framework */,
+				CB9887BD83AA8EE4C844B923 /* Pods_Lasportago_LasportagoUITests.framework */,
+				2CD18EF2218F7CE928485938 /* Pods_LasportagoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		705B5B86293CC6A500591DA7 = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +118,7 @@
 				705B5BAD293CC6A700591DA7 /* LasportagoUITests */,
 				705B5B90293CC6A500591DA7 /* Products */,
 				86088B1980089D35F3ABBF27 /* Pods */,
-				C763015FECC6F7410F16FC34 /* Frameworks */,
+				13AF6CB85272747816498E39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,24 +195,14 @@
 		86088B1980089D35F3ABBF27 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1DB6F6B99ADDC790294A3774 /* Pods-Lasportago.debug.xcconfig */,
-				6B79BB0478C6E74D5A5DA8B2 /* Pods-Lasportago.release.xcconfig */,
-				165E2C149385B90FFEB8905F /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */,
-				9EC8395DC86D6FA5006DE259 /* Pods-Lasportago-LasportagoUITests.release.xcconfig */,
-				6028A3300AEACB0D0E6E58D3 /* Pods-LasportagoTests.debug.xcconfig */,
-				D822953345DC6AA9A3991469 /* Pods-LasportagoTests.release.xcconfig */,
+				737F97E8B7DCDCE757652850 /* Pods-Lasportago.debug.xcconfig */,
+				70392FE0607BCB078C9DF298 /* Pods-Lasportago.release.xcconfig */,
+				EDF1D13495757D6910498B7B /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */,
+				D400945E6D243EEE0C2BF50D /* Pods-Lasportago-LasportagoUITests.release.xcconfig */,
+				A94B22A5292311A3BF9C93CA /* Pods-LasportagoTests.debug.xcconfig */,
+				DD947D4B34B7820374789E6F /* Pods-LasportagoTests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		C763015FECC6F7410F16FC34 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7D767A489EE628E1E827382D /* Pods_Lasportago.framework */,
-				0FB9416AC97394744AFE88E0 /* Pods_Lasportago_LasportagoUITests.framework */,
-				0A8A8C8C1934DCFC7C6EB9BC /* Pods_LasportagoTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,11 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 705B5BB4293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "Lasportago" */;
 			buildPhases = (
-				5DD6E5BFABB19EFA1FA50F49 /* [CP] Check Pods Manifest.lock */,
+				14359E012A692DF16CBFB267 /* [CP] Check Pods Manifest.lock */,
 				705B5B8B293CC6A500591DA7 /* Sources */,
 				705B5B8C293CC6A500591DA7 /* Frameworks */,
 				705B5B8D293CC6A500591DA7 /* Resources */,
 				706CA852294DE2C400B754CB /* ShellScript */,
+				9BD8863DF8EBDBD096ADE67B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 705B5BB7293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "LasportagoTests" */;
 			buildPhases = (
-				B5850ED58C59C801AF38B23C /* [CP] Check Pods Manifest.lock */,
+				99DBABAB413FF78B436DA7FB /* [CP] Check Pods Manifest.lock */,
 				705B5B9C293CC6A700591DA7 /* Sources */,
 				705B5B9D293CC6A700591DA7 /* Frameworks */,
 				705B5B9E293CC6A700591DA7 /* Resources */,
@@ -250,10 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 705B5BBA293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "LasportagoUITests" */;
 			buildPhases = (
-				EE14BFB68FA23A04747EB375 /* [CP] Check Pods Manifest.lock */,
+				E8B40F667D1B44729E64C8E9 /* [CP] Check Pods Manifest.lock */,
 				705B5BA6293CC6A700591DA7 /* Sources */,
 				705B5BA7293CC6A700591DA7 /* Frameworks */,
 				705B5BA8293CC6A700591DA7 /* Resources */,
+				4709B791EA824EAB0E109262 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -338,7 +340,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5DD6E5BFABB19EFA1FA50F49 /* [CP] Check Pods Manifest.lock */ = {
+		14359E012A692DF16CBFB267 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,6 +362,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4709B791EA824EAB0E109262 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		706CA852294DE2C400B754CB /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
@@ -378,7 +397,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
-		B5850ED58C59C801AF38B23C /* [CP] Check Pods Manifest.lock */ = {
+		99DBABAB413FF78B436DA7FB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -400,7 +419,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EE14BFB68FA23A04747EB375 /* [CP] Check Pods Manifest.lock */ = {
+		9BD8863DF8EBDBD096ADE67B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lasportago/Pods-Lasportago-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lasportago/Pods-Lasportago-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lasportago/Pods-Lasportago-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B40F667D1B44729E64C8E9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -585,7 +621,7 @@
 		};
 		705B5BB5293CC6A700591DA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DB6F6B99ADDC790294A3774 /* Pods-Lasportago.debug.xcconfig */;
+			baseConfigurationReference = 737F97E8B7DCDCE757652850 /* Pods-Lasportago.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -632,7 +668,7 @@
 		};
 		705B5BB6293CC6A700591DA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B79BB0478C6E74D5A5DA8B2 /* Pods-Lasportago.release.xcconfig */;
+			baseConfigurationReference = 70392FE0607BCB078C9DF298 /* Pods-Lasportago.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -679,7 +715,7 @@
 		};
 		705B5BB8293CC6A700591DA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6028A3300AEACB0D0E6E58D3 /* Pods-LasportagoTests.debug.xcconfig */;
+			baseConfigurationReference = A94B22A5292311A3BF9C93CA /* Pods-LasportagoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -704,7 +740,7 @@
 		};
 		705B5BB9293CC6A700591DA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D822953345DC6AA9A3991469 /* Pods-LasportagoTests.release.xcconfig */;
+			baseConfigurationReference = DD947D4B34B7820374789E6F /* Pods-LasportagoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -729,7 +765,7 @@
 		};
 		705B5BBB293CC6A700591DA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 165E2C149385B90FFEB8905F /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */;
+			baseConfigurationReference = EDF1D13495757D6910498B7B /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -753,7 +789,7 @@
 		};
 		705B5BBC293CC6A700591DA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EC8395DC86D6FA5006DE259 /* Pods-Lasportago-LasportagoUITests.release.xcconfig */;
+			baseConfigurationReference = D400945E6D243EEE0C2BF50D /* Pods-Lasportago-LasportagoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

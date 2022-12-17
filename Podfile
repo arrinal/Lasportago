@@ -6,7 +6,7 @@ target 'Lasportago' do
   use_frameworks!
 
   # Pods for Lasportago
-  pod 'Firebase/Analytics'
+  pod 'FirebaseAnalytics'
   pod 'SwiftLint'
 
   target 'LasportagoTests' do
@@ -18,4 +18,13 @@ target 'Lasportago' do
     # Pods for testing
   end
 
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if target.name == 'PromisesObjC'
+      create_symlink_phase = target.shell_script_build_phases.find { |x| x.name == 'Create Symlinks to Header Folders' }
+      create_symlink_phase.always_out_of_date = "1"
+    end
+  end
 end
