@@ -7,6 +7,7 @@ target 'Lasportago' do
 
   # Pods for Lasportago
   pod 'Firebase/Analytics'
+  pod 'SwiftLint'
 
   target 'LasportagoTests' do
     inherit! :search_paths

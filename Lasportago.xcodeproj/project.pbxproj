@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A78CD8953D136E51AD5EB47 /* Pods_LasportagoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256D3EE86D1B17B2C9F9806D /* Pods_LasportagoTests.framework */; };
+		12479345ADAC5C041A75F885 /* Pods_Lasportago.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D767A489EE628E1E827382D /* Pods_Lasportago.framework */; };
+		1916C9248CE414E2C8762098 /* Pods_LasportagoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8A8C8C1934DCFC7C6EB9BC /* Pods_LasportagoTests.framework */; };
+		3CC96E956D7D2E4A4824A9E7 /* Pods_Lasportago_LasportagoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB9416AC97394744AFE88E0 /* Pods_Lasportago_LasportagoUITests.framework */; };
 		705B5B93293CC6A500591DA7 /* LasportagoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5B92293CC6A500591DA7 /* LasportagoApp.swift */; };
-		705B5B95293CC6A500591DA7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5B94293CC6A500591DA7 /* ContentView.swift */; };
 		705B5B97293CC6A700591DA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705B5B96293CC6A700591DA7 /* Assets.xcassets */; };
 		705B5B9B293CC6A700591DA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 705B5B9A293CC6A700591DA7 /* Preview Assets.xcassets */; };
 		705B5BA5293CC6A700591DA7 /* LasportagoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5BA4293CC6A700591DA7 /* LasportagoTests.swift */; };
 		705B5BAF293CC6A700591DA7 /* LasportagoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5BAE293CC6A700591DA7 /* LasportagoUITests.swift */; };
 		705B5BB1293CC6A700591DA7 /* LasportagoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705B5BB0293CC6A700591DA7 /* LasportagoUITestsLaunchTests.swift */; };
+		70A2FC092945E6470026D954 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A2FC082945E6470026D954 /* HomeView.swift */; };
+		70A2FC0D2945E7400026D954 /* Nunito-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70A2FC0C2945E7350026D954 /* Nunito-Italic-VariableFont_wght.ttf */; };
+		70A2FC0E2945E7440026D954 /* Nunito-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70A2FC0B2945E7340026D954 /* Nunito-VariableFont_wght.ttf */; };
+		70A2FC112945FE870026D954 /* CategorySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A2FC102945FE870026D954 /* CategorySlider.swift */; };
+		70A2FC13294601670026D954 /* MatchBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A2FC12294601670026D954 /* MatchBanner.swift */; };
+		70A2FC18294608B70026D954 /* View+RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A2FC17294608B70026D954 /* View+RoundedCorner.swift */; };
 		70D9752029445CE300B346FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70D9751F29445CE300B346FE /* GoogleService-Info.plist */; };
-		8D13100665ED3BD0793F2C6E /* Pods_Lasportago.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF1F3945329C0AD362346BF /* Pods_Lasportago.framework */; };
-		DDF3645ADFD76A9215E3A0B6 /* Pods_Lasportago_LasportagoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8292F12A75E0A535B68AFF8 /* Pods_Lasportago_LasportagoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,14 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20F658292D03796649A0C9FB /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago-LasportagoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2340A928E5B589D69CD958CD /* Pods-Lasportago.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago.release.xcconfig"; path = "Target Support Files/Pods-Lasportago/Pods-Lasportago.release.xcconfig"; sourceTree = "<group>"; };
-		256D3EE86D1B17B2C9F9806D /* Pods_LasportagoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LasportagoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B24251F1FA5CA3D3B72368A /* Pods-LasportagoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LasportagoTests.debug.xcconfig"; path = "Target Support Files/Pods-LasportagoTests/Pods-LasportagoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5B61259F5E77BF16CD1B4728 /* Pods-Lasportago-LasportagoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago-LasportagoUITests.release.xcconfig"; path = "Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0A8A8C8C1934DCFC7C6EB9BC /* Pods_LasportagoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LasportagoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FB9416AC97394744AFE88E0 /* Pods_Lasportago_LasportagoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lasportago_LasportagoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		165E2C149385B90FFEB8905F /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago-LasportagoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DB6F6B99ADDC790294A3774 /* Pods-Lasportago.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago.debug.xcconfig"; path = "Target Support Files/Pods-Lasportago/Pods-Lasportago.debug.xcconfig"; sourceTree = "<group>"; };
+		6028A3300AEACB0D0E6E58D3 /* Pods-LasportagoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LasportagoTests.debug.xcconfig"; path = "Target Support Files/Pods-LasportagoTests/Pods-LasportagoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B79BB0478C6E74D5A5DA8B2 /* Pods-Lasportago.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago.release.xcconfig"; path = "Target Support Files/Pods-Lasportago/Pods-Lasportago.release.xcconfig"; sourceTree = "<group>"; };
 		705B5B8F293CC6A500591DA7 /* Lasportago.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lasportago.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		705B5B92293CC6A500591DA7 /* LasportagoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasportagoApp.swift; sourceTree = "<group>"; };
-		705B5B94293CC6A500591DA7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		705B5B96293CC6A700591DA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		705B5B98293CC6A700591DA7 /* Lasportago.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lasportago.entitlements; sourceTree = "<group>"; };
 		705B5B9A293CC6A700591DA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -54,11 +59,17 @@
 		705B5BAA293CC6A700591DA7 /* LasportagoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LasportagoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		705B5BAE293CC6A700591DA7 /* LasportagoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasportagoUITests.swift; sourceTree = "<group>"; };
 		705B5BB0293CC6A700591DA7 /* LasportagoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LasportagoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		70A2FC082945E6470026D954 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		70A2FC0B2945E7340026D954 /* Nunito-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		70A2FC0C2945E7350026D954 /* Nunito-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		70A2FC0F2945E7730026D954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		70A2FC102945FE870026D954 /* CategorySlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySlider.swift; sourceTree = "<group>"; };
+		70A2FC12294601670026D954 /* MatchBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchBanner.swift; sourceTree = "<group>"; };
+		70A2FC17294608B70026D954 /* View+RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+RoundedCorner.swift"; sourceTree = "<group>"; };
 		70D9751F29445CE300B346FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		8E2D42E43F562939EE24AA53 /* Pods-LasportagoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LasportagoTests.release.xcconfig"; path = "Target Support Files/Pods-LasportagoTests/Pods-LasportagoTests.release.xcconfig"; sourceTree = "<group>"; };
-		A806CFFDCC4437480FEF1024 /* Pods-Lasportago.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago.debug.xcconfig"; path = "Target Support Files/Pods-Lasportago/Pods-Lasportago.debug.xcconfig"; sourceTree = "<group>"; };
-		BDF1F3945329C0AD362346BF /* Pods_Lasportago.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lasportago.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8292F12A75E0A535B68AFF8 /* Pods_Lasportago_LasportagoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lasportago_LasportagoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D767A489EE628E1E827382D /* Pods_Lasportago.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lasportago.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EC8395DC86D6FA5006DE259 /* Pods-Lasportago-LasportagoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lasportago-LasportagoUITests.release.xcconfig"; path = "Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D822953345DC6AA9A3991469 /* Pods-LasportagoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LasportagoTests.release.xcconfig"; path = "Target Support Files/Pods-LasportagoTests/Pods-LasportagoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D13100665ED3BD0793F2C6E /* Pods_Lasportago.framework in Frameworks */,
+				12479345ADAC5C041A75F885 /* Pods_Lasportago.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A78CD8953D136E51AD5EB47 /* Pods_LasportagoTests.framework in Frameworks */,
+				1916C9248CE414E2C8762098 /* Pods_LasportagoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDF3645ADFD76A9215E3A0B6 /* Pods_Lasportago_LasportagoUITests.framework in Frameworks */,
+				3CC96E956D7D2E4A4824A9E7 /* Pods_Lasportago_LasportagoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,7 +108,7 @@
 				705B5BAD293CC6A700591DA7 /* LasportagoUITests */,
 				705B5B90293CC6A500591DA7 /* Products */,
 				86088B1980089D35F3ABBF27 /* Pods */,
-				B86F6A3D6781314F0CFEA9D4 /* Frameworks */,
+				C763015FECC6F7410F16FC34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,10 +125,15 @@
 		705B5B91293CC6A500591DA7 /* Lasportago */ = {
 			isa = PBXGroup;
 			children = (
+				70A2FC0F2945E7730026D954 /* Info.plist */,
 				705B5B92293CC6A500591DA7 /* LasportagoApp.swift */,
 				70D9751F29445CE300B346FE /* GoogleService-Info.plist */,
-				705B5B94293CC6A500591DA7 /* ContentView.swift */,
+				70A2FC082945E6470026D954 /* HomeView.swift */,
+				70A2FC102945FE870026D954 /* CategorySlider.swift */,
+				70A2FC12294601670026D954 /* MatchBanner.swift */,
+				70A2FC16294608A70026D954 /* Extension */,
 				705B5B96293CC6A700591DA7 /* Assets.xcassets */,
+				70A2FC0A2945E7260026D954 /* Font */,
 				705B5B98293CC6A700591DA7 /* Lasportago.entitlements */,
 				705B5B99293CC6A700591DA7 /* Preview Content */,
 			);
@@ -149,26 +165,42 @@
 			path = LasportagoUITests;
 			sourceTree = "<group>";
 		};
+		70A2FC0A2945E7260026D954 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				70A2FC0C2945E7350026D954 /* Nunito-Italic-VariableFont_wght.ttf */,
+				70A2FC0B2945E7340026D954 /* Nunito-VariableFont_wght.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		70A2FC16294608A70026D954 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				70A2FC17294608B70026D954 /* View+RoundedCorner.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		86088B1980089D35F3ABBF27 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A806CFFDCC4437480FEF1024 /* Pods-Lasportago.debug.xcconfig */,
-				2340A928E5B589D69CD958CD /* Pods-Lasportago.release.xcconfig */,
-				20F658292D03796649A0C9FB /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */,
-				5B61259F5E77BF16CD1B4728 /* Pods-Lasportago-LasportagoUITests.release.xcconfig */,
-				4B24251F1FA5CA3D3B72368A /* Pods-LasportagoTests.debug.xcconfig */,
-				8E2D42E43F562939EE24AA53 /* Pods-LasportagoTests.release.xcconfig */,
+				1DB6F6B99ADDC790294A3774 /* Pods-Lasportago.debug.xcconfig */,
+				6B79BB0478C6E74D5A5DA8B2 /* Pods-Lasportago.release.xcconfig */,
+				165E2C149385B90FFEB8905F /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */,
+				9EC8395DC86D6FA5006DE259 /* Pods-Lasportago-LasportagoUITests.release.xcconfig */,
+				6028A3300AEACB0D0E6E58D3 /* Pods-LasportagoTests.debug.xcconfig */,
+				D822953345DC6AA9A3991469 /* Pods-LasportagoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		B86F6A3D6781314F0CFEA9D4 /* Frameworks */ = {
+		C763015FECC6F7410F16FC34 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BDF1F3945329C0AD362346BF /* Pods_Lasportago.framework */,
-				F8292F12A75E0A535B68AFF8 /* Pods_Lasportago_LasportagoUITests.framework */,
-				256D3EE86D1B17B2C9F9806D /* Pods_LasportagoTests.framework */,
+				7D767A489EE628E1E827382D /* Pods_Lasportago.framework */,
+				0FB9416AC97394744AFE88E0 /* Pods_Lasportago_LasportagoUITests.framework */,
+				0A8A8C8C1934DCFC7C6EB9BC /* Pods_LasportagoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,11 +212,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 705B5BB4293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "Lasportago" */;
 			buildPhases = (
-				F1F45B9921B3939758372803 /* [CP] Check Pods Manifest.lock */,
+				5DD6E5BFABB19EFA1FA50F49 /* [CP] Check Pods Manifest.lock */,
 				705B5B8B293CC6A500591DA7 /* Sources */,
 				705B5B8C293CC6A500591DA7 /* Frameworks */,
 				705B5B8D293CC6A500591DA7 /* Resources */,
-				8AB294A047E6DF6B2E0BFFF2 /* [CP] Embed Pods Frameworks */,
+				706CA852294DE2C400B754CB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -199,7 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 705B5BB7293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "LasportagoTests" */;
 			buildPhases = (
-				BEDB746062B9AB4A236DD5F9 /* [CP] Check Pods Manifest.lock */,
+				B5850ED58C59C801AF38B23C /* [CP] Check Pods Manifest.lock */,
 				705B5B9C293CC6A700591DA7 /* Sources */,
 				705B5B9D293CC6A700591DA7 /* Frameworks */,
 				705B5B9E293CC6A700591DA7 /* Resources */,
@@ -218,11 +250,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 705B5BBA293CC6A700591DA7 /* Build configuration list for PBXNativeTarget "LasportagoUITests" */;
 			buildPhases = (
-				2AB652340B148CF43EFCAABB /* [CP] Check Pods Manifest.lock */,
+				EE14BFB68FA23A04747EB375 /* [CP] Check Pods Manifest.lock */,
 				705B5BA6293CC6A700591DA7 /* Sources */,
 				705B5BA7293CC6A700591DA7 /* Frameworks */,
 				705B5BA8293CC6A700591DA7 /* Resources */,
-				48ABF47D2BD4FD4D13462AD7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -284,6 +315,8 @@
 			files = (
 				705B5B9B293CC6A700591DA7 /* Preview Assets.xcassets in Resources */,
 				705B5B97293CC6A700591DA7 /* Assets.xcassets in Resources */,
+				70A2FC0D2945E7400026D954 /* Nunito-Italic-VariableFont_wght.ttf in Resources */,
+				70A2FC0E2945E7440026D954 /* Nunito-VariableFont_wght.ttf in Resources */,
 				70D9752029445CE300B346FE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,85 +338,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2AB652340B148CF43EFCAABB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Lasportago-LasportagoUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		48ABF47D2BD4FD4D13462AD7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lasportago-LasportagoUITests/Pods-Lasportago-LasportagoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8AB294A047E6DF6B2E0BFFF2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lasportago/Pods-Lasportago-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Lasportago/Pods-Lasportago-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lasportago/Pods-Lasportago-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BEDB746062B9AB4A236DD5F9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LasportagoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F1F45B9921B3939758372803 /* [CP] Check Pods Manifest.lock */ = {
+		5DD6E5BFABB19EFA1FA50F49 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -405,6 +360,68 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		706CA852294DE2C400B754CB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		B5850ED58C59C801AF38B23C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LasportagoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE14BFB68FA23A04747EB375 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lasportago-LasportagoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -412,8 +429,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				705B5B95293CC6A500591DA7 /* ContentView.swift in Sources */,
+				70A2FC112945FE870026D954 /* CategorySlider.swift in Sources */,
+				70A2FC092945E6470026D954 /* HomeView.swift in Sources */,
+				70A2FC18294608B70026D954 /* View+RoundedCorner.swift in Sources */,
 				705B5B93293CC6A500591DA7 /* LasportagoApp.swift in Sources */,
+				70A2FC13294601670026D954 /* MatchBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +503,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -500,6 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -541,6 +563,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -552,6 +575,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -561,18 +585,22 @@
 		};
 		705B5BB5293CC6A700591DA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A806CFFDCC4437480FEF1024 /* Pods-Lasportago.debug.xcconfig */;
+			baseConfigurationReference = 1DB6F6B99ADDC790294A3774 /* Pods-Lasportago.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Lasportago/Lasportago.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Lasportago/Preview Content\"";
 				DEVELOPMENT_TEAM = C625QPFG8X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lasportago/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -584,6 +612,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -603,18 +632,22 @@
 		};
 		705B5BB6293CC6A700591DA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2340A928E5B589D69CD958CD /* Pods-Lasportago.release.xcconfig */;
+			baseConfigurationReference = 6B79BB0478C6E74D5A5DA8B2 /* Pods-Lasportago.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Lasportago/Lasportago.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Lasportago/Preview Content\"";
 				DEVELOPMENT_TEAM = C625QPFG8X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lasportago/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -626,6 +659,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -645,12 +679,13 @@
 		};
 		705B5BB8293CC6A700591DA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B24251F1FA5CA3D3B72368A /* Pods-LasportagoTests.debug.xcconfig */;
+			baseConfigurationReference = 6028A3300AEACB0D0E6E58D3 /* Pods-LasportagoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = C625QPFG8X;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
@@ -669,12 +704,13 @@
 		};
 		705B5BB9293CC6A700591DA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E2D42E43F562939EE24AA53 /* Pods-LasportagoTests.release.xcconfig */;
+			baseConfigurationReference = D822953345DC6AA9A3991469 /* Pods-LasportagoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = C625QPFG8X;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
@@ -693,11 +729,12 @@
 		};
 		705B5BBB293CC6A700591DA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20F658292D03796649A0C9FB /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */;
+			baseConfigurationReference = 165E2C149385B90FFEB8905F /* Pods-Lasportago-LasportagoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = C625QPFG8X;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
@@ -716,11 +753,12 @@
 		};
 		705B5BBC293CC6A700591DA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B61259F5E77BF16CD1B4728 /* Pods-Lasportago-LasportagoUITests.release.xcconfig */;
+			baseConfigurationReference = 9EC8395DC86D6FA5006DE259 /* Pods-Lasportago-LasportagoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 11;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = C625QPFG8X;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;

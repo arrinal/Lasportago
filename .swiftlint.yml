@@ -1,0 +1,5 @@
+included:
+  - Lasportago
+
+excluded:
+  - Pods
